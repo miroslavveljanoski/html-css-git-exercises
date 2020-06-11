@@ -1,1 +1,59 @@
 /* Add your own CSS code below */
+#heart {
+  color: #c85308;
+  font-size: 18px;
+}
+
+.main-nav .main-nav__list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.branch {
+  display: flex;
+  flex-direction: column;
+}
+
+.branch label {
+  margin: 5px;
+}
+
+.site-content article.main-article {
+  max-width: 50em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.site-content article.main-article p {
+  line-height: 1.5em;
+}
+
+@media (min-width: 992px) {
+  h2.hero__title {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 767px) {
+  header .site-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .views {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .views .view-list__item {
+    margin: 0 20px;
+  }
+
+  .views a:last-child {
+    margin-left: auto;
+    margin-right: 15px;
+  }
+}
